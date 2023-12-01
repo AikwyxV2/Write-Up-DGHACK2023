@@ -10,7 +10,7 @@ Si il demande une clé ça sous entend qu’il en a besoin pour déchiffrer, pou
 
 Pour ce faire j’utilise IDA(free) pour obtenir le graphique : 
 
-![Untitled](WRITE%20UP%20()%20eda56aa1d7f54fe29284a62abe232c02/Untitled.png)
+![Untitled](images/Untitled.png)
 
 Petit zoom sur la fonction main : 
 
