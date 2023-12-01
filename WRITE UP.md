@@ -105,18 +105,18 @@ jmp     short loc_401FFB
 
 Donc on doit juste changer une instruction, fait avec GHIDRA pour ma part : 
 
-![Untitled](WRITE%20UP%20()%20eda56aa1d7f54fe29284a62abe232c02/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 On recherche le block.. 
 
-![Untitled](WRITE%20UP%20()%20eda56aa1d7f54fe29284a62abe232c02/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 ctrl shift g 
 
-![Untitled](WRITE%20UP%20()%20eda56aa1d7f54fe29284a62abe232c02/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 On switch 75 15 à 74 15 et : 
 
-![Untitled](WRITE%20UP%20()%20eda56aa1d7f54fe29284a62abe232c02/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
 On obtient notre petit patch :
